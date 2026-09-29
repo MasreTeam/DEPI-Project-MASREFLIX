@@ -34,15 +34,12 @@
 > 🎯 **Project Objectives:**
 
 * Build a functional and responsive movie discovery platform.
-* Practice developing a real-world React application.
-* Apply component-based architecture and reusable components.
-* Integrate and consume a movie API.
-* Implement movie search, filtering, and categorization.
-* Provide users with detailed movie information.
+* Develop a real-world React application using component-based architecture and reusable components.
+* Integrate and consume an external movie API.
+* Implement movie search, filtering, categorization, and detailed movie information.
 * Implement a personal watchlist feature.
 * Practice collaborative development using Git and GitHub.
-* Improve teamwork, project planning, and software development skills.
-* Deliver a complete project within a **5-week development period**.
+* Deliver a complete and polished MVP within a **5-week development period**.
 
 ---
 
@@ -103,7 +100,8 @@
 
 **API**
 
-* Movie API *(mock data during initial development)*
+* Mock movie data during initial development
+* External movie API for the final implementation
 
 **Development**
 
@@ -207,7 +205,7 @@ These features may be considered for future versions.
 
 By the end of the five weeks, the team aims to deliver a responsive **Movie Discovery Platform** with:
 
-**Home → Discover → Search → Movie Details → Watchlist**
+**Home → Discover/Search → Movie Details → Watchlist**
 
 while maintaining a clean, reusable, and collaborative codebase.
 
