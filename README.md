@@ -1,37 +1,47 @@
 # 🎬 MASRE Movies
 
-> 📎 **Project Name:**
-> **MASRE Movies — Movie Discovery Platform**
+<div align="center">
+
+**A modern, responsive web-based movie discovery platform.**
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+</div>
 
 ---
 
-> 📌 **Project Overview:**
-> MASRE Movies is a web-based movie discovery platform designed to help users easily explore, search, and discover movies based on their interests.
->
-> The platform will allow users to browse movies, search for specific titles, explore movie details, discover movies by genre, and maintain a personal watchlist.
->
-> The project is developed as a collaborative team project, focusing on applying modern frontend development concepts, API integration, responsive UI design, and software engineering practices.
+## 📌 Project Overview
+
+**MASRE Movies** is a web-based movie discovery platform designed to help users easily explore, search, and discover movies based on their interests. 
+
+The platform allows users to browse movies, search for specific titles, explore movie details, discover movies by genre, and maintain a personal watchlist.
+
+The project is developed as a collaborative team project, focusing on applying modern frontend development concepts, API integration, responsive UI design, and software engineering practices.
 
 ---
 
-> 👥 **Team Members:**
+## 👥 Team Members
 
-| Member   | Role                     |
-| -------- | ------------------------ |
-| Hatem  |        |
-| Ahmed Hossam |        |
-| Seifeldeen |        |
-| Reham Mohamed |        |
-| Rana |    |
+| Member | Role |
+| :--- | :--- |
+| **Mohamed Hatem Ragheb** | — |
+| **Ahmed Hossam Said** | — |
+| **Seifeldeen Mohamed Farouk** | — |
+| **Eyad Hesham Hassan** | — |
+| **Reham Mohamed Ibrahim** | — |
+| **Rana Fathy Mahmoud** | — |
 
 ---
 
-> 📎🎓 **Instructor:**
+## 🎓 Instructor
+
 > **Hesham Mohamed**
 
 ---
 
-> 🎯 **Project Objectives:**
+## 🎯 Project Objectives
 
 * Build a functional and responsive movie discovery platform.
 * Develop a real-world React application using component-based architecture and reusable components.
@@ -43,176 +53,95 @@
 
 ---
 
-> 📦 **Project Scope:**
+## 📦 Project Scope
 
 ### 🔹 Core Features
 
-* 🏠 **Home Page**
-
+* **🏠 Home Page**
   * Featured movie
   * Trending movies
   * Popular movies
   * Movie categories
 
-* 🔎 **Movie Search**
-
+* **🔎 Movie Search**
   * Search movies by title
   * Display search results
   * Handle empty/no-result searches
 
-* 🎭 **Movie Categories**
-
+* **🎭 Movie Categories**
   * Browse movies by genre
   * Filter movies based on selected categories
 
-* 🎬 **Movie Details**
+* **🎬 Movie Details**
+  * Movie poster, title, description, and release date
+  * Genre, rating, and cast information
+  * Similar movies recommendation
 
-  * Movie poster
-  * Title
-  * Description
-  * Release date
-  * Genre
-  * Rating
-  * Cast
-  * Similar movies
-
-* ❤️ **Watchlist**
-
-  * Add movies to watchlist
-  * Remove movies from watchlist
+* **❤️ Watchlist**
+  * Add or remove movies from watchlist
   * View saved movies
 
-* 📱 **Responsive Design**
+* **📱 Responsive Design**
+  * Optimized for Desktop, Tablet, and Mobile
 
-  * Desktop
-  * Tablet
-  * Mobile
+---
 
 ### 🔹 Technical Scope
 
-**Frontend**
+* **Frontend:** React, JavaScript, HTML, CSS, Bootstrap
+* **API:** Mock movie data (initial development) ➡️ External movie API (final implementation)
+* **Development Tools:** Git & GitHub, Component-based architecture, REST API integration
 
-* React
-* JavaScript
-* HTML
-* CSS
-* Bootstrap
+---
 
-**API**
-
-* Mock movie data during initial development
-* External movie API for the final implementation
-
-**Development**
-
-* Git & GitHub
-* Component-based architecture
-* REST API integration
-
-### 🔹 Out of Scope for the Initial Version
-
-To keep the project achievable within five weeks, the following features will not be part of the initial MVP:
-
+### 🔹 Out of Scope for Initial Version
+To keep the project achievable within five weeks, the following features are excluded from the MVP:
 * Complex recommendation algorithms
 * Social networking features
-* Advanced user reviews
-* Real-time messaging
+* Advanced user reviews & real-time messaging
 * Complex authentication/authorization systems
 * Advanced AI-based recommendations
 
-These features may be considered for future versions.
-
 ---
 
-> 📅 **Project Plan (5 Weeks):**
+## 📅 Project Plan (5 Weeks)
 
 ### 🗓️ Week 1 — Planning & Project Setup
-
-* Finalize project requirements.
-* Define MVP features.
-* Design application structure.
-* Create GitHub repository.
-* Initialize React project.
-* Set up project folders and components.
-* Prepare mock movie data.
-* Create initial UI wireframes/design.
-
-**Deliverable:**
-➡️ Project structure + initial UI + mock data.
-
----
+* Finalize project requirements & define MVP features.
+* Design application structure & UI wireframes.
+* Create GitHub repository and initialize React project.
+* Set up project folders, components, and mock movie data.
+* **Deliverable:** Project structure + initial UI + mock data.
 
 ### 🗓️ Week 2 — Core UI Development
-
-* Build Navbar and Footer.
-* Develop Home page.
-* Create reusable Movie Card component.
-* Create movie sections.
-* Build Discover page.
-* Implement responsive layouts.
-* Establish consistent styling and UI components.
-
-**Deliverable:**
-➡️ Functional frontend structure with major pages.
-
----
+* Build Navbar, Footer, and Home page.
+* Create reusable Movie Card component and movie sections.
+* Build Discover page and implement responsive layouts.
+* **Deliverable:** Functional frontend structure with major pages.
 
 ### 🗓️ Week 3 — Movie Functionality & API Integration
-
 * Integrate the movie API.
-* Implement movie search.
-* Implement genre filtering.
-* Implement movie details page.
-* Display dynamic movie information.
-* Handle loading and error states.
-
-**Deliverable:**
-➡️ Fully functional movie discovery and search experience.
-
----
+* Implement movie search, genre filtering, and details page.
+* Display dynamic movie information and handle loading/error states.
+* **Deliverable:** Fully functional movie discovery and search experience.
 
 ### 🗓️ Week 4 — Watchlist & Integration
-
 * Implement watchlist functionality.
-* Connect remaining components.
-* Improve navigation and user experience.
-* Fix integration issues.
-* Refactor reusable components.
-* Test major application features.
-
-**Deliverable:**
-➡️ Complete MVP with all core features connected.
-
----
+* Connect remaining components and improve navigation/UX.
+* Refactor reusable components and test major features.
+* **Deliverable:** Complete MVP with all core features connected.
 
 ### 🗓️ Week 5 — Testing, Refinement & Presentation
-
-* Perform functional testing.
-* Fix bugs and UI issues.
-* Improve responsive design.
-* Optimize application performance.
-* Clean and organize the codebase.
-* Prepare project documentation.
-* Prepare final presentation/demo.
-* Deploy the final version if applicable.
-
-**Deliverable:**
-➡️ Final polished project + documentation + presentation.
+* Perform functional testing, bug fixing, and performance optimization.
+* Clean codebase and prepare project documentation.
+* Prepare final presentation, demo, and deployment.
+* **Deliverable:** Final polished project + documentation + presentation.
 
 ---
 
 ## 🚀 Final Deliverable
 
-By the end of the five weeks, the team aims to deliver a responsive **Movie Discovery Platform** with:
+By the end of the five weeks, the team aims to deliver a responsive **Movie Discovery Platform** following the user flow:
 
-**Home → Discover/Search → Movie Details → Watchlist**
-
-while maintaining a clean, reusable, and collaborative codebase.
-
----
-
-### 👥 Team
-
-**MASRE**
-
-> 🎬 *Discover your next favorite movie.*
+```text
+Home ➡️ Discover/Search ➡️ Movie Details ➡️ Watchlist
